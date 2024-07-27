@@ -40,8 +40,8 @@ function NavLinks() {
                 <NavigationMenuLink
                     href="/"
                     className={cn(
-                        "text-base hover:text-reddish focus:text-reddish duration-100",
-                        pathname === "/" && "text-reddish"
+                        "text-base hover:text-secondary focus:text-secondary duration-100",
+                        pathname === "/" && "text-secondary"
                     )}
                 >
                     Home
@@ -51,8 +51,8 @@ function NavLinks() {
                 <NavigationMenuLink
                     href="/"
                     className={cn(
-                        "text-base hover:text-reddish focus:text-reddish duration-100",
-                        pathname === "/new" && "text-reddish"
+                        "text-base hover:text-secondary focus:text-secondary duration-100",
+                        pathname === "/new" && "text-secondary"
                     )}
                 >
                     New
@@ -62,8 +62,8 @@ function NavLinks() {
                 <NavigationMenuLink
                     href="/"
                     className={cn(
-                        "text-base hover:text-reddish focus:text-reddish duration-100",
-                        pathname === "/popular" && "text-reddish"
+                        "text-base hover:text-secondary focus:text-secondary duration-100",
+                        pathname === "/popular" && "text-secondary"
                     )}
                 >
                     Popular
@@ -73,8 +73,8 @@ function NavLinks() {
                 <NavigationMenuLink
                     href="/"
                     className={cn(
-                        "text-base hover:text-reddish focus:text-reddish duration-100",
-                        pathname === "/trending" && "text-reddish"
+                        "text-base hover:text-secondary focus:text-secondary duration-100",
+                        pathname === "/trending" && "text-secondary"
                     )}
                 >
                     Trending
@@ -84,8 +84,8 @@ function NavLinks() {
                 <NavigationMenuLink
                     href="/"
                     className={cn(
-                        "text-base hover:text-reddish focus:text-reddish duration-100",
-                        pathname === "/categories" && "text-reddish"
+                        "text-base hover:text-secondary focus:text-secondary duration-100",
+                        pathname === "/categories" && "text-secondary"
                     )}
                 >
                     Categories
