@@ -1,4 +1,5 @@
 import { NewsCard } from '@/components/NewsCard'
+import { PostsCardsSection } from '@/components/PostsCards'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -7,14 +8,14 @@ export default function Home() {
 
   return (
     <main>
-      <section className='max-w-screen-xl mx-auto'>
+      <section className='max-w-screen-xl mx-auto my-12'>
         <div className="grid grid-cols-6 gap-6">
           <div className="col-span-4">
             <div className="h-[450px] relative">
               <Image
                 src={"/image-web-3-desktop.jpg"}
-                width={1440}
-                height={1080}
+                width={1080}
+                height={720}
                 alt="the bright future of web 3.0?"
                 className="size-full object-cover"
               />
@@ -28,6 +29,7 @@ export default function Home() {
                 <Button size="lg">Read More</Button>
               </div>
             </div>
+
           </div>
 
           <div className="col-span-2">
@@ -36,6 +38,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <PostsCardsSection className="max-w-screen-xl mx-auto my-12" />
     </main>
   )
 }

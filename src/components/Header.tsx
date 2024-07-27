@@ -22,7 +22,7 @@ export function Header() {
                 <Link href="/">
                     <Image src="/logo.svg" alt="logo" width={65} height={65} className="size-[65px] object-contain" />
                 </Link>
-
+ 
                 <NavigationMenu>
                     <NavLinks />
                 </NavigationMenu>
